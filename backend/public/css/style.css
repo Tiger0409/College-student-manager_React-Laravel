@@ -1,0 +1,30 @@
+.list-box {
+    width: 100%;
+    height:15em;
+    border:solid 1px #c0c0c0;
+    overflow:auto;
+    padding: 5px;
+}
+
+.list-box label {
+    display: block;
+    padding-left: 30px;
+}
+
+.list-box input {
+    display: none;
+}
+
+.list-box-item-selected {
+    background-color: #EEEEEE;
+}
+
+.filter-form-centered-text {
+    margin-top: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.results-table th {
+    font-size: 10pt;
+}

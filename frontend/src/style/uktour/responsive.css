@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.mob_menu{display: none; float: left; width: 100%;}
+
+@media only screen and (min-width:1000px) and (max-width:1200px)
+{
+.container{width: 980px;}
+.nav_secInr ul li{margin-right: 10px;}
+.nav_secInr ul li a{font-size: 13px;}
+.imam_quote_pnl p{padding: 0 190px;}
+.fire_logo{top: 20px;}
+.nav_secInr ul li:nth-child(3){margin-right: 220px;}
+
+.clr_bx_One{width: 468px; margin: 10px;}
+.clr_bx_sec{padding: 40px 0 0;}
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:999px)
+{
+.container{width: 750px;}
+.nav_secInr ul li a{font-size: 13px;}
+.imam_quote_pnl p{padding: 0 20px;}
+.nav_secInr ul li:nth-child(3){margin-right: 96px;}
+.nav_secInr ul li a{font-size: 11px;}
+.nav_secInr ul li{margin-right: 13px;}
+.gray_cont_sec p br{display: none;}
+.logo{width: 80px; margin-left: -40px; height: auto; top: -37px;}
+.logo img{width: 100%;}
+.fire_logo{width: 150px; margin-left: -75px; top: 20px;}
+.fire_logo img{width: 100%;}
+.heading{font-size: 50px;}
+.one_three_pnl p{font-size: 12px;}
+.clr_bx_One{width: 100%; margin: 15px 0;}
+.one_three_pnl_hdrInr{font-size: 17px;}
+.one_three_pnl .coran{max-width: 78%;}
+}
+
+
+
+
+
+@media only screen and (max-width:767px) 
+{
+.mob_hide{display: none;}
+.mob_menu{display: block;}
+
+.container{width: 95%;}
+#open{margin: 6px 0; float: left;}
+#hide{position: absolute; top: 100%; width: 100%; background: #694c15; margin: 0px; padding: 15px; display: none;}
+.nav_secInr ul li{width: 100%; margin: 0px 0 10px 0;}
+
+.cont_frmRow input[type="password"]{width: 90%;}
+.cont_frmRow input[type="text"]{width: 90%;}
+.cont_frmRow textarea{width: 90%;}
+.imam_quote_pnl p{padding: 0px;}
+.heading{font-size: 40px; line-height: 40px;}
+.heading span{font-size: 14px;}
+.white_cont_sec p{padding: 0px;}
+
+.white_cont_sec, .gray_cont_sec, .blue_cont_sec, .light_gray_sec{padding: 50px 0;}
+.year_sec{padding: 50px 0 10px;}
+
+
+.white_cont_sec a{margin-top: 10px;}
+.gray_cont_sec p br{display: none;}
+.img_group ul li{width: 48.5%;}
+.fire_logo{top: 50%; margin-top: -50px;}
+.img_group{margin-bottom: 15px;}
+
+.clr_bx_One{width: 100%; margin: 15px 0;}
+.clr_bx_sec{padding:40px 0px;}
+.one_three_pnl{width: 100%; margin-bottom: 15px;}
+
+.heading_frst strong{font-size: 45px;}
+.big_circle{max-width: 100%;}
+.top{bottom: 0px;}
+.image_group2 li
+{
+	width:32%;
+}
+}
+
+
+
+@media only screen and (max-width:479px) 
+{
+.heading{font-size: 25px; line-height: 25px;}
+.white_cont_sec a{font-size: 30px; padding:71px 26px;}
+.gray_contInr_sec h4{font-size: 25px;}
+
+.light_grayInr_sec h4{font-size: 25px;}
+.arrow_bx{font-size: 18px;}
+.imam_quote_pnl h4{font-size: 18px;}
+
+.clr_bx_OneInrFulf{width: 100%;}
+.clr_bx_One h2{font-size: 40px;}
+.heading_frst strong{font-size: 30px; line-height: 30px;}
+.heading_frst span{font-size: 22px;}
+.image_group2 li
+{
+	width:auto;
+}
+.image_group li
+{
+	width:100%;
+	margin:0;
+	text-align:center;
+}
+.image_group li img
+{
+	width:80%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

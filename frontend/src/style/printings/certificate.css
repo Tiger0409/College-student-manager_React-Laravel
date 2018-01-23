@@ -1,0 +1,11 @@
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+}
+
+.cert-container {
+    font-size: 28px;
+    margin: 680px 15px 100px 15px;
+    text-align: center;
+    line-height: 1.2em;
+    font-family: "DejaVu Serif"
+}

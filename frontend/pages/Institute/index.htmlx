@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1100">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Tayyibun Institute - Adult Learning</title>
+    <link href="/src/style/Institute/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="toprow">
+    <div class="headerwrap">
+        <div class="Topleftnav">
+            <ul>
+            <!--   <li><a href="http://www.almuminaat.com/">AL MUMINAAT</a></li>
+               <li><a href="http://www.tayyibunmadrasah.co.uk">TAYYIBUN MADRASAH</a></li>
+                <li><a href="http://www.tayyibunonline.com/">TAYYIBUN ONLINE</a></li> -->
+            </ul>
+        </div>
+        <div class="Toprightnav">
+            <ul>
+                
+                <li><a class="mainicon" href="http://www.tayyibun.com">Back to Tayyibun Main site</a></li>
+              <li><a class="mainicon2" href="/login">|  Login </a></li>
+              <!--  <li class="loginbtn"><a href="#">Login</a>
+                    <ul>
+                        <li><input type="text" placeholder="User Name" /></li>
+                        <li><input type="password" placeholder="Password" /></li>
+                        <li><input type="submit" value="login" /></li>
+                    </ul>
+                
+                </li>
+                <li><form action="http://203.134.214.20/tayi/" id="searchform" method="get">
+<div><input type="text" id="s" name="s" placeholder="Search" value="" size="18">
+<input type="submit" class="btn" value="Search" id="searchsubmit">
+</div>
+</form></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="headerwrap">
+        <h1><a href="index.html"><img src="/src/images/logo.jpg" alt="" /></a></h1>
+        <ul>
+               <!-- <li class="active"><a href="index.html">Part Time</a></li> -->
+                
+                <li><a href="/">Courses</a></li>
+                <li><a href="teachers.html">Instructors</a></li>
+                <li><a href="register.html">Registration & Venue</a></li>
+       
+        </ul>
+    </div>
+</header>
+<div id="mainbanner">
+    <div class="container">
+        <div class="bannertxt">
+            <h2>3 Month Structured</h2>
+            <h3>Part time Islamic Courses for adults</h3>
+            <p>Select from a wide range of disciplines. Our course terms run in 3 month periods &amp; take place 3 times per year, giving  students the opportunity to advance themselves through levels</p>
+            <h5>Early bird discount end soon</h5>
+        </div>
+    </div>
+</div>
+<div id="homecontent">    
+    <div class="container">
+    	<div class="row">
+            <div id="sidebar">
+                <div class="bluehead">
+                    <h2>Our Faculties</h2>
+                    <p>For full details and courses download our brochure</p>
+                </div>
+                <ul>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of Arabic Language</a></li>
+                    <li><a href="https://adults.tayyibun.com">ULOOM UD DEEN</a></li>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of Qur’an</a></li>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of FIQH</a></li>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of AQEEDAH</a></li>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of TARBIYYAH</a></li>
+                    <li><a href="https://adults.tayyibun.com">Faculty Of AUTHENTIC SPIRITUALITY</a></li>
+                </ul>
+            </div>
+            <div class="contentright">
+            	<div class="row" >
+                	<div class="col-md-6">
+                    	<a href="http://www.tayyibun.com/pdf/ParttimeArabicBrochure.pdf"><img src="/src/images/downloadbrochure.jpg" alt="" /></a>
+                 </div>
+                 <div class="col-md-6">
+                    	<a href="https://adults.tayyibun.com"><img src="/src/images/regToday.jpg" alt="" /></a>
+                  </div>
+                </div>
+                <div class="row">
+                	<div class="col-md-6">
+                    <!--	<a class="getfree" href="/"><img src="/src/images/getFree.jpg" alt="" /></a>-->
+                    </div>
+                    <div class="col-md-6">
+                    	<div class="newsletter">
+                        	<h2>Join Our Mailing List</h2>
+                        	<p>Don't miss any of our offers or Courses. Subscribe to our Newsletter now.</p>
+                          
+                          <form method=post action="http://tayyibun.com/lists/?p=subscribe&id=1" name="subscribeform" onSubmit="popupform(this, 'join')">
+ Enter Email<br>
+
+ 
+<input type=text name=email value="" size="30">
+
+
+<input type=hidden name="htmlemail" value="1">
+<input type="hidden" name="list[5]" value="signup">
+<input type="hidden" name="listname[5]" value="Tayyibun"/>
+<input type=submit name="subscribe" value="Subscribe" onClick="return checkform();">
+    </form>
+                          
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>    
+    </div>
+</div>
+<footer>
+<div id="bluewrap">
+	<div class="container">
+    	<div class="row" >
+            	<ul>
+                	                    <li><a href="http://www.tayyibun.com/tandc.pdf">TERMS</a></li>
+                </ul>
+                <p><img src="/src/images/footerlogo.jpg" alt="" /></p>
+                <p>An initiative of Tayyibun</p>
+       	</div>
+   </div>
+</div>
+<div id="goldwrap">
+	<p><strong>Copyright &copy; 2016- 2018 Tayyibun.</strong></p>
+    <p>No reproduction, electronic or otherwise is permitted without the permission of Tayyibun Institute</p>
+</div>
+</footer>
+<SCRIPT TYPE="text/javascript">
+<!--
+function popupform(myform, windowname)
+{
+if (! window.focus)return true;
+window.open('', windowname, 'height=200,width=400,scrollbars=yes');
+myform.target=windowname;
+return true;
+}
+//-->
+</SCRIPT> 
+</body>
+</html>

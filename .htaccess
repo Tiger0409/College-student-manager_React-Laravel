@@ -1,0 +1,33 @@
+RewriteEngine On
+
+#with ssl
+#RewriteCond %{HTTPS} off
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule (.*) https://%{SERVER_NAME}/ [R,L]
+
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule "api/(.*)" "https://%{SERVER_NAME}/backend/public/$1" [L,R=307]
+
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteCond %{REQUEST_URI} !^/src(.*)$
+#RewriteRule (.*) frontend/dist/$1 [L,NC,QSA]
+#RewriteRule ^src/(.+)$ frontend/src/$1 [L,NC]
+
+
+
+
+
+
+#without ssl
+RewriteRule "api/(.*)" "http://%{SERVER_NAME}/backend/public/$1" [L,R=307]
+RewriteCond %{REQUEST_URI} !^/src(.*)$
+RewriteRule (.*) frontend/dist/$1 [L,NC,QSA]
+RewriteRule ^src/(.+)$ frontend/src/$1 [L,NC]
+
+
+
+
+
